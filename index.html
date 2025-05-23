@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Meta Tags Essenciais -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stammers - A banda de rock que está revolucionando a cena musical. Descubra nossa música, videoclipes, shows e história. Rock autêntico e energia pura.">
+    <meta name="keywords" content="Stammers, banda de rock, rock alternativo, shows Stammers, discografia Stammers, turnê 2024, música brasileira">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Stammers | Rock Autêntico e Energia Pura">
+    <meta property="og:description" content="A banda de rock que você precisa ouvir hoje. Músicas, vídeos e shows da Stammers!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.stammers.com">
+    <meta property="og:image" content="https://www.stammers.com/images/og-home.jpg">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Stammers | Siga a Banda no Twitter">
+    <meta name="twitter:description" content="Acompanhe as novidades da Stammers e não perca nenhum show! #RockAutêntico">
+    <meta name="twitter:image" content="https://www.stammers.com/images/twitter-home.jpg">
+    <meta name="twitter:site" content="@stammers">
+
+    <title data-translate="title">Stammer - Rock Band</title>
+    
+    <!-- Links de Estilo -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="IMG/IconnF.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="myProgressBar"></div>
+    </div>
+
+    <!-- Fluid Canvas -->
+    <canvas id="fluid-canvas"></canvas>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="menu-btn" aria-label="Menu de navegação">
+            <div class="menu-btn__burger"></div>
+        </div>
+
+        <img src="IMG/LOGO completa.png" alt="Logo da banda Stammers" class="logo">
+
+        <nav id="nav" aria-label="Navegação principal">
+            <ul>
+                <li><a href="#home" class="active" data-translate="menu.home">Home</a></li>
+                <li><a href="#biography" data-translate="menu.bio">Biografia</a></li>
+                <li><a href="#clips" data-translate="menu.clips">Clips</a></li>
+                <li><a href="#album" data-translate="menu.album">Album</a></li>
+                <li><a href="#photos" data-translate="menu.photos">Fotos</a></li>
+                <li><a href="#contact" data-translate="menu.contact">Contato</a></li>
+                <li class="language-switcher">
+                    <div class="lang-btns">    
+                        <button class="lang-btn active" data-lang="pt" aria-label="Português">PT <i><img src="IMG/brasil.png" alt="Bandeira do Brasil" height="17"></i></button>
+                        <button class="lang-btn" data-lang="en" aria-label="Inglês">EN<i><img src="IMG/estados-unidos-da-america.png" alt="Bandeira dos EUA" height="15"></i></button>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section" aria-labelledby="hero-heading">
+        <div class="hero-content">
+            <h1 class="hero-title" id="hero-heading">
+                <span data-translate="hero.title">Bem-vindos Stammer</span>
+            </h1>
+            <a href="#biography" class="hero-btn" data-translate="hero.button">Conheça a banda</a>
+        </div>
+    </section>
+
+    <!-- Biography Section -->
+    <section id="biography" class="bio-section" aria-labelledby="bio-heading">
+        <h2 class="section-title" id="bio-heading" data-translate="sections.bio">Biografia</h2>
+        <div class="bio-container">
+            <div class="bio-image">
+                <img src="IMG/Festival Schornstein 2023.png" alt="Stammers se apresentando no Festival Schornstein 2023">
+            </div>
+            <div class="bio-text">
+                <p data-translate="bio.paragraph1">A Stammer é a prova viva de que o rock autoral brasileiro ainda pulsa forte e tem muito a dizer. Com influências que vão do hard rock clássico aos elementos modernos do rock contemporâneo, a banda entrega um som autêntico, poderoso e cheio de personalidade.</p>
+                <p data-translate="bio.paragraph2">Formada por músicos experientes e apaixonados pela arte, a Stammer se destaca não só pela técnica apurada, mas pela energia crua e visceral que imprime em cada apresentação ao vivo. Com presença marcante e letras que misturam paixão, fé, crítica e introspecção.</p>
+                <p data-translate="bio.paragraph3">A banda lançou seu primeiro single Unbreakable, disponível em todas as plataformas digitais, e já marcou presença em diversos palcos catarinenses, conquistando o público com apresentações cheias de atitude e autenticidade.</p>
+                <p data-translate="bio.paragraph4">Stammer não é só música — é identidade, resistência e paixão. É o grito de quem acredita que o rock ainda pode emocionar, transformar e unir.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clips Section -->
+    <section id="clips" class="clips-section" aria-labelledby="clips-heading">
+        <h2 class="section-title" id="clips-heading" data-translate="sections.clips">Videoclipes</h2>
+        <div class="clips-container">
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jdpZPlq7AMk" title="Videoclipe da Stammers no YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CRw66SSrmgc" title="Videoclipe da Stammers no YouTube" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Album Section -->
+    <section id="album" class="album-section" aria-labelledby="album-heading" style="background-color: #111;">
+        <h2 class="section-title" id="album-heading" data-translate="sections.album">Álbuns</h2>
+        <div class="album-container">
+            <div class="simple-player">
+                <div class="player-header">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEWCZxqhuzeArFrwOq-WRa6lmjWAwB56do8g&s" alt="Capa do álbum da Stammers" class="album-cover">
+                    <div class="now-playing" data-translate="player.select">Selecione uma faixa</div>
+                </div>
+                
+                <div class="controls">
+                    <button class="prev-btn" onclick="prevTrack()" aria-label="Faixa anterior">⏮</button>
+                    <button class="play-btn" onclick="togglePlay()" aria-label="Reproduzir">▶</button>
+                    <button class="next-btn" onclick="nextTrack()" aria-label="Próxima faixa">⏭</button>
+                </div>
+                
+                <div class="track-list">
+                    <div class="track" onclick="playTrack(1)" role="button" tabindex="0">
+                        <span>1. HIGHER</span>
+                        <span>0:30</span>
+                    </div>
+                    <div class="track" onclick="playTrack(2)" role="button" tabindex="0">
+                        <span>2. FLY HIGHER NOW</span>
+                        <span>0:30</span>
+                    </div>
+                    <div class="track" onclick="playTrack(3)" role="button" tabindex="0">
+                        <span>3. START AGAIN</span>
+                        <span>0:30</span>
+                    </div>
+                    <div class="track" onclick="playTrack(4)" role="button" tabindex="0">
+                        <span>4. REAL PASSION</span>
+                        <span>0:30</span>
+                    </div>
+                    <div class="track" onclick="playTrack(5)" role="button" tabindex="0">
+                        <span>5. MIRACLE</span>
+                        <span>0:30</span>
+                    </div>
+                    <div class="track" onclick="playTrack(6)" role="button" tabindex="0">
+                        <span>6. ONE BY ONE</span>
+                        <span>0:30</span>
+                    </div>
+                    <div class="track" onclick="playTrack(7)" role="button" tabindex="0">
+                        <span>7. ACROSS THE OCEAN</span>
+                        <span>0:30</span>
+                    </div>
+                    <div class="track" onclick="playTrack(8)" role="button" tabindex="0">
+                        <span>8. SO TAKE MY HEART</span>
+                        <span>0:30</span>
+                    </div>
+                    <div class="track" onclick="playTrack(9)" role="button" tabindex="0">
+                        <span>9. TELL ME WHAT YOU WANT</span>
+                        <span>0:30</span>
+                    </div>
+                    <div class="track" onclick="playTrack(10)" role="button" tabindex="0">
+                        <span>10. I M BACK</span>
+                        <span>0:30</span>
+                    </div>
+                    <div class="track" onclick="playTrack(11)" role="button" tabindex="0">
+                        <span>11. LIVIN ON THE EDGE</span>
+                        <span>0:30</span>
+                    </div>
+                </div>
+                
+                <audio id="audio-player"></audio>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photos Section -->
+    <section id="photos" class="photos-section" aria-labelledby="photos-heading">
+        <h2 class="section-title" id="photos-heading" data-translate="sections.photos">Galeria de Fotos</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="IMG/Festival Schornstein 2023 (1).png" alt="Stammers se apresentando no Festival Schornstein">
+                <div class="gallery-overlay"></div>
+            </div>
+            <div class="gallery-item">
+                <img src="IMG/Festival Schornstein 2023.png" alt="Integrantes da Stammers no palco">
+                <div class="gallery-overlay"></div>
+            </div>
+            <div class="gallery-item">
+                <img src="IMG/Gravação Album Miracle Shokran Estudio 2023 (2).png" alt="Stammers em sessão de gravação no estúdio">
+                <div class="gallery-overlay"></div>
+            </div>
+            <div class="gallery-item">
+                <img src="IMG/Gravação Album Miracle Shokran Estudio 2023 (3).png" alt="Banda Stammers trabalhando no álbum">
+                <div class="gallery-overlay"></div>
+            </div>
+            <div class="gallery-item">
+                <img src="IMG/Gravação Album Miracle Shokran Estudio 2023 (4).png" alt="Processo criativo da Stammers no estúdio">
+                <div class="gallery-overlay"></div>
+            </div>
+            <div class="gallery-item">
+                <img src="IMG/Metal Joinville 2022.png" alt="Show da Stammers no Metal Joinville 2022">
+                <div class="gallery-overlay"></div>
+            </div>
+            <div class="gallery-item">
+                <img src="IMG/Lucas Stammer e Edu Falaschi (1).png" alt="Lucas Stammer com Edu Falaschi">
+                <div class="gallery-overlay"></div>
+            </div>
+            <div class="gallery-item">
+                <img src="IMG/Lucas Stammer e Edu Falaschi.png" alt="Encontro entre Lucas Stammer e Edu Falaschi">
+                <div class="gallery-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Modal -->
+    <div class="modal" id="photo-modal" role="dialog" aria-modal="true" aria-hidden="true">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Fechar visualização">&times;</button>
+            <img src="" alt="" id="modal-img">
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section" aria-labelledby="contact-heading">
+        <h2 class="section-title" id="contact-heading" data-translate="sections.contact">Contato</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p data-translate="contact.message">Entre em contato com a Stammer!</p>
+            </div>
+
+            <div class="socials">
+                <a href="https://www.instagram.com/stammerofficial/" class="social-link" aria-label="Instagram da Stammers"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@stammerofficial" class="social-link" aria-label="YouTube da Stammers"><i class="fab fa-youtube"></i></a>
+                <a href="https://open.spotify.com/intl-pt/artist/07zMyr1PAJIWGAE1aPNp0p?si=1swd-SqJR1KskgllOT3rtw" class="social-link" aria-label="Spotify da Stammers"><i class="fab fa-spotify"></i></a>
+            </div>
+
+            <a href="https://wa.me/554791652056" class="whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> <span data-translate="contact.whatsapp">Fale com a Stammers</span>
+            </a>
+
+            <div class="shows-container">
+                <h3 class="shows-title" data-translate="contact.shows">Próximos Shows</h3>
+
+                <div class="show-item">
+                    <div class="show-info">
+                        <div class="show-date" data-translate="contact.shows_info">Agendas Atualizadas pelo nosso Time do WhatsApp</div>
+                        <div class="show-location">SC E REGIÃO</div>
+                    </div>
+                    <a href="https://wa.me/554791652056" class="show-tickets" data-translate="contact.tickets">Ingressos | GARANTA COM A GENTE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/554791652056" class="whatsapp-float" aria-label="Contato via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <div class="whatsapp-tooltip" data-translate="contact.whatsapp_tooltip">Entre em contato com a Stammer!</div>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <img src="IMG/LOGO completa.png" alt="Logo da banda Stammers" class="logo_footer">
+        <p data-translate="footer.copyright">&copy; 2025 Stammers. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MusicGroup",
+      "name": "Stammers",
+      "description": "Banda de rock autêntica criando hits desde 2022.",
+      "url": "https://www.stammers.com",
+      "genre": "Rock Alternativo",
+      "image": "https://www.stammers.com/images/banda.jpg",
+      "sameAs": [
+        "https://instagram.com/stammerofficial",
+        "https://youtube.com/@stammerofficial",
+        "https://open.spotify.com/artist/07zMyr1PAJIWGAE1aPNp0p"
+      ]
+    }
+    </script>
+</body>
+</html>
