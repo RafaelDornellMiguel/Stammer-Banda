@@ -59,7 +59,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 100;
-    padding: 17px 20px;
+    padding: 30px 20px;
     display: flex;
     justify-content: space-between; /* Alterado para space-between */
     align-items: center;

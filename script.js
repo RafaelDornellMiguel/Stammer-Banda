@@ -207,14 +207,14 @@ const MusicPlayer = (() => {
 const I18nController = (() => {
     const translations = {
         pt: {
-            "title": "Stammers - Rock Band",
+            "title": "Stammer - Rock Band",
             "menu.home": "Home",
             "menu.bio": "Biografia",
             "menu.clips": "Clips",
             "menu.album": "Album",
             "menu.photos": "Fotos",
             "menu.contact": "Contato",
-            "hero.title": "Bem-vindos Stammers",
+            "hero.title": "Bem-vindos Stammer",
             "hero.button": "Conheça a banda",
             "sections.bio": "Biografia",
             "sections.clips": "Videoclipes",
@@ -225,14 +225,14 @@ const I18nController = (() => {
             // ... outras traduções
         },
         en: {
-            "title": "Stammers - Rock Band",
+            "title": "Stammer - Rock Band",
             "menu.home": "Home",
             "menu.bio": "Biography",
             "menu.clips": "Clips",
             "menu.album": "Album",
             "menu.photos": "Photos",
             "menu.contact": "Contact",
-            "hero.title": "Welcome to Stammers",
+            "hero.title": "Welcome to Stammer",
             "hero.button": "Meet the band",
             "sections.bio": "Biography",
             "sections.clips": "Music Videos",
