@@ -235,7 +235,7 @@ const I18nController = (() => {
             "menu.album": "Album",
             "menu.photos": "Photos",
             "menu.contact": "Contact",
-            "hero.title": "Welcome to Stammers",
+            "hero.title": "Welcome Stammers",
             "hero.button": "Meet the band",
             "sections.bio": "Biography",
             "sections.clips": "Music Videos",
