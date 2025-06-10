@@ -814,6 +814,48 @@ footer p {
     top: -80px;
 }
 
+.show-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-right: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Começa do topo */
+    height: 100vh; /* Altura total da tela */
+    padding-top: 150px; /* Desce a imagem */
+}
+
+.show-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    animation: float 3s ease-in-out infinite;
+    cursor: pointer;
+}
+
+.show-image:hover {
+    transform: scale(1.1) rotate(1deg);
+    box-shadow: 0 30px 60px rgba(255, 255, 255, 0.3);
+}
+
+
+@keyframes float {
+    0%   { transform: translateY(0px); }
+    50%  { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
 /* Layout Responsivo */
 @media (max-width: 768px) {
     /* Menu Mobile */

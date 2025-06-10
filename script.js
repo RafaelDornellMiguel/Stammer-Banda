@@ -134,17 +134,17 @@ const MusicPlayer = (() => {
     let isPlaying = false;
     const audioPlayer = document.getElementById('audio-player');
     const tracks = [
-        { title: "1. HIGHER", src: "AUD/01 - HIGHER .mp3", duration: "0:30" },
-        { title: "2. FLY HIGHER NOW", src: "AUD/02 - FLY HIGHER NOW .mp3", duration: "0:30" },
-        { title: "3. START AGAIN", src: "AUD/03 - START AGAIN.mp3", duration: "0:30" },
-        { title: "4. REAL PASSION", src: "AUD/04 - REAL PASSION.mp3", duration: "0:30" },
-        { title: "5. MIRACLE", src: "AUD/05 - MIRACLE.mp3", duration: "0:30" },
-        { title: "6. ONE BY ONE", src: "AUD/06 - ONE BY ONE.mp3", duration: "0:30" },
-        { title: "7. ACROSS THE ACEAN", src: "AUD/07 - ACROSS THE OCEAN.mp3", duration: "0:30" },
-        { title: "8. SO TAKE MY HEART", src: "AUD/09 - SO TAKE MY HEART.mp3", duration: "0:30" },
-        { title: "9. TELL ME WHAT YOU WANT", src: "AUD/09 - TELL ME WHAT YOU WANT.mp3", duration: "0:30" },
-        { title: "10. I M BLACK", src: "AUD/10 - I_M BACK.mp3", duration: "0:30" },
-        { title: "11. LIVIN ON THE EDGE", src: "AUD/11 - LIVIN_ ON THE EDGE (BONUS TRACK).mp3", duration: "0:30" }
+        { title: "HIGHER", src: "AUD/01 - HIGHER .wav", duration: "04:34" },
+        { title: "FLY HIGHER", src: "AUD/02 - FLY HIGHER .wav", duration: "04:15" },
+        { title: "LIVING", src: "AUD/03 - LIVING .wav", duration: "03:16" },
+        { title: "START AGAIN", src: "AUD/04 - START AGAIN.wav", duration: "04:40" },
+        { title: "MIRACLE", src: "AUD/05 - MIRACLE.wav", duration: "05:02" },
+        { title: "ONE BY ONE", src: "AUD/06 - ONE BY ONE.wav", duration: "03:09" },
+        { title: "ACROSS", src: "AUD/07 - ACROSS .wav", duration: "04:02" },
+        { title: "SO TAKE", src: "AUD/08 - SO TAKE.wav", duration: "05:50" },
+        { title: "TELL ME", src: "AUD/09 - TELL ME .wav", duration: "02:37" },
+        { title: "IM BACK-1", src: "AUD/10 - IM BACK-1.wav", duration: "04:02" },
+        { title: "REAL PASSSION", src: "AUD/11 - REAL PASSSION.wav", duration: "03:24" }
     ];
 
     const init = () => {
@@ -225,6 +225,7 @@ const I18nController = (() => {
             "bio.paragraph2": "Formada por músicos experientes e apaixonados pela arte, a Stammers se destaca não só pela técnica apurada, mas pela energia crua e visceral que imprime em cada apresentação ao vivo. Com presença marcante e letras que misturam paixão, fé, crítica e introspecção.",
             "bio.paragraph3": "A banda lançou seu primeiro single Unbreakable, disponível em todas as plataformas digitais, e já marcou presença em diversos palcos catarinenses, conquistando o público com apresentações cheias de atitude e autenticidade. ",
             "bio.paragraph4": "Stammers não é só música — é identidade, resistência e paixão. É o grito de quem acredita que o rock ainda pode emocionar, transformar e unir.",
+            "bio.paragraph5": "Gravado e produzido com peso e alma no Shokran Studios.",
             // ... outras traduções
         },
         en: {
@@ -246,6 +247,7 @@ const I18nController = (() => {
             "bio.paragraph2": "Formada por músicos experientes e apaixonados pela arte, a Stammers se destaca não só pela técnica apurada, mas pela energia crua e visceral que imprime em cada apresentação ao vivo. Com presença marcante e letras que misturam paixão, fé, crítica e introspecção.",
             "bio.paragraph3": "The band released their first single Unbreakable, available on all digital platforms, and has already performed on several stages in Santa Catarina, winning over the public with performances full of attitude and authenticity.",
             "bio.paragraph4": "Stammers is not just music — it is identity, resistance and passion. It is the cry of those who believe that rock can still move, transform and unite.",
+            "bio.paragraph5": "Recorded and produced with weight and soul at Shokran Studios.",
             // ... outras traduções
         }
     };
